@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
   modules:[
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
@@ -23,6 +22,6 @@ export default defineNuxtConfig({
         tokenName: 'github-token',
         httpEndpoint: 'https://api.github.com/graphql'
       }
-    },
-  },
+    }
+  }
 })
